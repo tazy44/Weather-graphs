@@ -6,7 +6,7 @@ import WeatherList from './containers/WeatherList';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <SearchBar />
         <WeatherList />
       </div>
