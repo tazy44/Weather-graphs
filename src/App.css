@@ -13,3 +13,7 @@ td, th {
   background-color: #000;
 }
 
+/* td:first-of-type div div {
+  height: 600px;
+  width: 650px;
+} */

@@ -5,7 +5,7 @@ import Chart from '../components/chart';
 class WeatherList extends Component {
 
     renderWeather(cityData) {
-        let cityName = cityData.city.name
+        let cityName = cityData.city.name;
         let temps = cityData.list.map(item => (item.main.temp-273.15));
         let pressure = cityData.list.map(item=> (item.main.pressure));
         let humidity = cityData.list.map(item=> (item.main.humidity));
